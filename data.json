@@ -1,0 +1,51 @@
+{
+
+"projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each time the user clicks a button",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://b00m808.github.io/Portfolio-Site/",
+            "github_link": "git@github.com:B00M808/Quote-Generator-Project.git",
+            "image_url": ""
+        },
+        {
+            "id": 2,
+            "project_name": "Data Pagination Filtering",
+            "description": "Utilized JavaScript to display several pages of student data that the user can easily navigate and view",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://b00m808.github.io/Portfolio-Site/",
+            "github_link": "git@github.com:B00M808/Data-Pagination-and-Filtering-Project.git",
+            "image_url": ""
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Enhanced a form so that it is engaging, interactive, and easy to use",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://b00m808.github.io/Portfolio-Site/",
+            "github_link": "git@github.com:B00M808/Interactive-Form.git",
+            "image_url": ""
+        },
+        {
+            "id": 4,
+            "project_name": "OOP Game Show App",
+            "description": "A browser-based, word guessing game, using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://b00m808.github.io/Portfolio-Site/",
+            "github_link": "git@github.com:B00M808/Game-Show-App.git",
+            "image_urls": ["example-html/images/GameShow1.jpeg", ""]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "Created an employee directory by communicating with a third-party API",
+            "technologies": "HTML, CSS, JavaScript",
+            "live_link": "https://b00m808.github.io/Portfolio-Site/",
+            "github_link": "git@github.com:B00M808/Public-API-Requests.git",
+            "image_url": ""
+        }
+    ]
+
+}

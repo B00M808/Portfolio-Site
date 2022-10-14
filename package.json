@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Server Side JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B00M808/Portfolio-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B00M808/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/B00M808/Portfolio-Site#readme",
+  "dependencies": {
+    "core-js": "^3.25.5",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
