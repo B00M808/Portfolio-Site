@@ -1,28 +1,28 @@
+//Require all dependencies
 const express = require('express');
 const app = express();
 const { data } = require('../data/data.json');
-const path = require('path');
+//const path = require('path');
 
-const bodyParser = require('body-parser');
-app.use(express.static(path.join(__dirname, './public')))
-
-app.use(express.urlencoded( { extended: false } ));
-
-app.set('view engine', 'pug');
+//Set up the template engine
 app.set('views', path.join(__dirname, './views'));
+app.set('view engine', 'pug');
 
+//Express middleware for accessing the req.body
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded( { extended: false } ));
+
+//Static middleware for serving static files
+app.use('/static', express.static(path.join(__dirname, './public')))
 
 //Setting Routes
-
 const router = express.Router();
 const id = req.params.id;
   res.render('project', {
     projects: data.projects[id]
   });
 
-//const homeRoute = require('./home');
-const aboutRoute = require('./about');
-
+//Rendered the index
 app.get('/', (req, res) => {
     res.render('index', { projects });
   });
@@ -36,48 +36,45 @@ app.get('/projects/:id', (req, res, next) => {
   next();
 })
 
+/*
+  alternatively:
+  app.get("/noroute", (req,res) => {
+    res.send(__dirname, './noroute')
+  })
+
+  //////Temporarily throwing an intentional 500 error
+  app.get("/project/noroute", (req,res) => {
+    res.send(__dirname, './project/noroute')
+  })
+
+};
+*/
 module.exports = router;
 
-//This Middleware will be responsible for creating the error object & handing off to the error handler
+//404 Error Handler to catch undefined or non-existent route requests
+app.use((req, res, next) => {
 
-app.use((err, req, res, next) => {
+  console.log('404 error handler called');
 
-  const err = new Error('Not Found');
-
-err.status = 404;
-
-  next(err); 
+res.status(404).render('not-found');
 
 });
 
-//we can set the status of the response using the status method on the response object. The status method takes the number of the code. If there is an error in the code on the server it will throw a status 500, this is a general error. 
-
+//Global Error Handler
 app.use((err, req, res, next) => {
-
-  console.log(500);
-
-  const err = new Error('Uh-Oh!');
-
-err.status = 500;
-
-  next(err); 
+  if (err) {
+    console.log('Global error handler called', err);
+  }
+  if (err.status === 404) {
+    res.status(404).render('not-found', { err });
+  } else {
+    err.message = err.message || `Woo-Sah! Looks like something went wrong on the server.`
+    res.status(err.status || 500).render('error', { err });
+  }
 });
 
-app.use((err, req, res, next) => {
-
-  console.log("Internal Server Error");
-
-  res.locals.error = err;
-
-res.status(error. status);
-
-  res.render('error'); 
-
-});
-
-
+//Start up the server 
 app.listen(3000, () => {
-
   console.log('The app is running on the localhost:3000');
 
 });
