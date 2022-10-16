@@ -1,8 +1,8 @@
 //Require all dependencies
 const express = require('express');
+const path = require('path');
 const app = express();
 const { data } = require('../data/data.json');
-//const path = require('path');
 
 //Set up the template engine
 app.set('views', path.join(__dirname, './views'));
@@ -10,6 +10,7 @@ app.set('view engine', 'pug');
 
 //Express middleware for accessing the req.body
 const bodyParser = require('body-parser');
+app.use(express.json());
 app.use(bodyParser.urlencoded( { extended: false } ));
 
 //Static middleware for serving static files
@@ -28,14 +29,18 @@ app.get('/', (req, res) => {
   });
 
 app.get('/about', (req, res) => {
-  res.render('About Page');
+  res.render('about');
 });
 
 app.get('/projects/:id', (req, res, next) => { 
   res.send(req.params);
   next();
-})
-
+});
+/*
+render method
+app.get('/projects/:id', (req, res, next) => { 
+  res.render('project', {
+    project });  */
 /*
   alternatively:
   app.get("/noroute", (req,res) => {

@@ -8,7 +8,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Quote-Generator-Project.git",
-            "image_url": ""
+            "image_urls": ["/static/images/Main Random Quote.jpeg", "/static/images/Random Quote 1.jpeg", "/static/images/ Random Quote 2.jpeg", "/static/images/ Random Quote 3.jpeg"]   
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Data-Pagination-and-Filtering-Project.git",
-            "image_url": ""
+            "image_urls": ["/static/images/Main Pagination.jpeg", "/static/images/Pagination1.jpeg", "/static/images/ Pagination 2.jpeg"]   
         },
         {
             "id": 3,
@@ -26,7 +26,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Interactive-Form.git",
-            "image_url": ""
+            "image_urls": ["/static/images/Main Interactive Form.jpeg", "/static/images/Interactive Form1.jpeg", "/static/images/ Interactive Form 2.jpeg", "/static/images/ Interactive Form 3.jpeg"] 
         },
         {
             "id": 4,
@@ -35,7 +35,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Game-Show-App.git",
-            "image_urls": ["example-html/images/GameShow1.jpeg", ""]
+            "image_urls": ["/static/images/Main GameShowApp.jpeg", "/static/images/GameShow1.jpeg", "/static/images/ GameShow2.jpeg", "/static/images/ GameShow3.jpeg"]   
         },
         {
             "id": 5,
@@ -44,7 +44,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Public-API-Requests.git",
-            "image_url": ""
+            "image_urls": ["/static/images/Main Public API.jpeg", "/static/images/Public API 1.jpeg", "/static/images/ Public API 2.jpeg"]   
         }
     ]
 
