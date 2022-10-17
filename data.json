@@ -17,7 +17,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Data-Pagination-and-Filtering-Project.git",
-            "image_urls": ["/static/images/Main Pagination.jpeg", "/static/images/Pagination1.jpeg", "/static/images/ Pagination 2.jpeg"]   
+            "image_urls": ["/static/images/Main Pagination.jpeg", "/static/images/Pagination1.jpeg", "/static/images/Pagination 2.jpeg"]   
         },
         {
             "id": 3,

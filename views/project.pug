@@ -17,7 +17,7 @@ block content
         h1 #{projects.project_name}
 
         //- Use interpolation to dynamically add the project description
-        p ${project.description}
+        p #{projects.description}
 
       .project-tech-links-box.box
         h6 Technologies
@@ -36,9 +36,9 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${project.image_urls[1]}`, alt='large picture of project')
-      img.project-img(src=`${project.image_urls[3]}`, alt='large picture of project')
-      img.project-img(src=`${project.image_urls[4]}`, alt='large picture of project')
+      img.project-img(src=`${projects.image_urls[1]}`, alt='large picture of project')
+      img.project-img(src=`${projects.image_urls[2]}`, alt='large picture of project')
+      img.project-img(src=`${projects.image_urls[3]}`, alt='large picture of project')
 
     nav.nav
       a(href='/')

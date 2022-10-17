@@ -18,7 +18,7 @@ block content
       //-h1 For/Each Loop
       each project in projects
         .cell
-          a(href=`project/${project.id}`)
+          a(href=`/projects/${project.id}`)
             img.thumbnail(src= `${project.image_urls[0]}` , alt='small profile picture')
             h5= projects.project_name
       
@@ -27,8 +27,5 @@ block content
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
 
-        .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+    
 

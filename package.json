@@ -4,7 +4,7 @@
   "description": "Server Side JavaScript",
   "main": "app.js",
   "scripts": {
-    "start": "app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/B00M808/Portfolio-Site#readme",
   "dependencies": {
-    "core-js": "^3.25.5",
     "express": "^4.18.2",
     "pug": "^3.0.2"
   },
