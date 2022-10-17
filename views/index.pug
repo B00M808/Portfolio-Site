@@ -5,10 +5,10 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Crafting ideas into dynamic products.
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Created a gorgeous portfolio site to showcase some of the great projects that I have built. The site contains a modern landing page, an about page where I have shared contact info, and a series of project pages tthat shows off and details at least my first five projects while pursuing a Techdegree.
 
 
   article.portfolio-project-thumbs
@@ -19,7 +19,7 @@ block content
       each project in projects
         .cell
           a(href=`project/${project.id}`)
-            img.thumbnail(src= `${project.image_urls[0]}` , alt='')
+            img.thumbnail(src= `${project.image_urls[0]}` , alt='small profile picture')
             h5= projects.project_name
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:

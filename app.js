@@ -12,11 +12,11 @@ const { data } = require('./data.json');
 app.use(express.json());
 
 //Set up the template engine
-app.set('views', path.join(__dirname, './views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 //Static middleware for serving static files
-app.use('/static', express.static(path.join(__dirname, './public')));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //Set Routes
 const router = express.Router();
@@ -29,7 +29,7 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/projects/:id', (req, res) => { 
+app.get('/projects/:id', (req, res, next) => { 
   const { id } = req.params;
   res.render('project', { 
     projects: data.projects[id] });
@@ -46,6 +46,8 @@ app.get('/projects/:id', (req, res) => {
   })
 
 };
+
+is this neccessary: const createError = require('http-errors');
 */
 module.exports = router;
 
@@ -55,7 +57,7 @@ app.use((req, res, next) => {
   console.log('404 error handler called');
 
 res.status(404).render('not-found');
-//next();
+
 });
 
 //Global Error Handler
