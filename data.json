@@ -2,7 +2,7 @@
 
 "projects": [
         {
-            "id": 1,
+            "id": 0,
             "project_name": "Random Quote Generator",
             "description": "A program that displays a randomly selected quote each time the user clicks a button",
             "technologies": "HTML, CSS, JavaScript",
@@ -11,7 +11,7 @@
             "image_urls": ["/static/images/RandomQuoteGenerator.jpeg", "/static/images/RandomQuoteGenerator1.jpeg", "/static/images/RandomQuoteGenerator2.jpeg", "/static/images/RandomQuoteGenerator3.jpeg"]   
         },
         {
-            "id": 2,
+            "id": 1,
             "project_name": "Data Pagination Filtering",
             "description": "Utilized JavaScript to display several pages of student data that the user can easily navigate and view",
             "technologies": "HTML, CSS, JavaScript",
@@ -20,7 +20,7 @@
             "image_urls": ["/static/images/DataPaginationFiltering.jpeg", "/static/images/DataPaginationFiltering1.jpeg", "/static/images/DataPaginationFiltering2.jpeg", "/static/images/DataPaginationFiltering3.jpeg"]   
         },
         {
-            "id": 3,
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "Enhanced a form so that it is engaging, interactive, and easy to use",
             "technologies": "HTML, CSS, JavaScript",
@@ -29,7 +29,7 @@
             "image_urls": ["/static/images/InteractiveForm.jpeg", "/static/images/InteractiveForm1.jpeg", "/static/images/InteractiveForm2.jpeg", "/static/images/InteractiveForm3.jpeg"] 
         },
         {
-            "id": 4,
+            "id": 3,
             "project_name": "OOP Game Show App",
             "description": "A browser-based, word guessing game, using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -38,7 +38,7 @@
             "image_urls": ["/static/images/OOPGameShowApp.jpeg", "/static/images/OOPGameShowApp1.jpeg", "/static/images/OOPGameShowApp2.jpeg", "/static/images/OOPGameShowApp3.jpeg"]   
         },
         {
-            "id": 5,
+            "id": 4,
             "project_name": "Public API Requests",
             "description": "Created an employee directory by communicating with a third-party API",
             "technologies": "HTML, CSS, JavaScript",
