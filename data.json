@@ -8,7 +8,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Quote-Generator-Project.git",
-            "image_urls": ["/static/images/Main Random Quote.jpeg", "/static/images/Random Quote 1.jpeg", "/static/images/Random Quote 2.jpeg", "/static/images/Random Quote 3.jpeg"]   
+            "image_urls": ["/static/images/RandomQuoteGenerator.jpeg", "/static/images/RandomQuoteGenerator1.jpeg", "/static/images/RandomQuoteGenerator2.jpeg", "/static/images/RandomQuoteGenerator3.jpeg"]   
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Data-Pagination-and-Filtering-Project.git",
-            "image_urls": ["/static/images/Main Pagination.jpeg", "/static/images/Pagination1.jpeg", "/static/images/Pagination 2.jpeg", "/static/images/Pagination3.jpeg"]   
+            "image_urls": ["/static/images/DataPaginationFiltering.jpeg", "/static/images/DataPaginationFiltering1.jpeg", "/static/images/DataPaginationFiltering2.jpeg", "/static/images/DataPaginationFiltering3.jpeg"]   
         },
         {
             "id": 3,
@@ -26,7 +26,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Interactive-Form.git",
-            "image_urls": ["/static/images/Main Interactive Form.jpeg", "/static/images/Interactive Form1.jpeg", "/static/images/ Interactive Form 2.jpeg", "/static/images/Interactive Form 3.jpeg"] 
+            "image_urls": ["/static/images/InteractiveForm.jpeg", "/static/images/InteractiveForm1.jpeg", "/static/images/InteractiveForm2.jpeg", "/static/images/InteractiveForm3.jpeg"] 
         },
         {
             "id": 4,
@@ -35,7 +35,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Game-Show-App.git",
-            "image_urls": ["/static/images/Main GameShowApp.jpeg", "/static/images/GameShow1.jpeg", "/static/images/GameShow2.jpeg", "/static/images/GameShow3.jpeg"]   
+            "image_urls": ["/static/images/OOPGameShowApp.jpeg", "/static/images/OOPGameShowApp1.jpeg", "/static/images/OOPGameShowApp2.jpeg", "/static/images/OOPGameShowApp3.jpeg"]   
         },
         {
             "id": 5,
@@ -44,7 +44,7 @@
             "technologies": "HTML, CSS, JavaScript",
             "live_link": "https://b00m808.github.io/Portfolio-Site/",
             "github_link": "git@github.com:B00M808/Public-API-Requests.git",
-            "image_urls": ["/static/images/Main Public API.jpeg", "/static/images/Public API 1.jpeg", "/static/images/Public API 2.jpeg", "/static/images/Public API3.jpeg"]   
+            "image_urls": ["/static/images/PublicAPIRequests.jpeg", "/static/images/PublicAPIRequests1.jpeg", "/static/images/PublicAPIRequests2.jpeg", "/static/images/PublicAPIRequests3.jpeg"]   
         }
     ]
 
